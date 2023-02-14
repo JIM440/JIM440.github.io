@@ -1,0 +1,166 @@
+html {
+    box-sizing: border-box;
+}
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: black;
+    color: white;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+                 /* Header */
+
+header{
+	margin: 0px 50px;
+}
+
+.underline{
+    border-width: 0px 0px 1px 0px ;
+    border-color: solid rgb(34, 244, 34);
+}
+a:link, a:visited {
+color: white;
+text-decoration: underline rgb(34, 244, 34);
+display: inline;
+padding: 0px 10px;
+}
+
+a:hover{
+color: rgb(34, 244, 34);
+}
+header div {
+    margin-top: 5px;
+    display: inline;
+    float: right;
+}
+header a img:hover{
+    padding: 5px;
+    }
+	div span {
+  border-bottom: 2px solid green;
+  display: inline-block;
+}
+                 p{
+    color: rgb(240, 228, 228);
+                 }
+                 img.person{
+                    float: right;
+                    background-color: rgb(36, 32, 32);
+                    z-index: -1;}
+                    div.main{
+                        display: block;
+                        margin: 18px 0px 0px 20px;
+                        float: left;
+                        width: 450px;
+                      }
+                          div.border{
+                            border-width: 0px 0px 1px 0px;
+                            border-color: rgb(36, 32, 32);
+                          }    
+				 				 /*Menu*/
+				 
+                 #left{
+                  float:left;
+                  }
+				 div p.small {
+  font-size: 10px;
+  line-height: 15px;
+}
+.menu-container {
+  display: block;
+ }
+
+.menu-container > div {
+	width: 300px;
+  float: left;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+}
+                 /* IMAGE GALLERY */
+		div.gallery {
+    margin: 10px;
+    float: left;
+    width: 490px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}		
+    
+/* Give body margin*/
+.body{
+	margin: 0px 50px;
+}
+	/* footer footer footer footer footer footer footer footer footer footer footer*/
+	footer {
+						display: block;
+						 margin: 0px;
+             border-width: 0px 0px 1px 0px;
+             border-color: rgb(43, 42, 42);
+						 }				 
+						 
+						 /*Footer form*/
+						 input[type="text"] {
+  border-width: 0px 0px 1px 0px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(24, 23, 23);
+  margin: 10px 0;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  color: white;
+}
+input[type="email"] {
+  border-width: 0px 0px 1px 0px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(24, 23, 23);
+  margin: 10px 0;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  color: white;
+}
+input[type="submit"] {
+  border-width: 0px 0px 1px;
+  color: white;
+  border-color: rgb(18, 226, 18);
+  background-color: rgb(24, 23, 23);
+  text-align: right;
+  display: block;
+  margin-right: 0px;
+}
+textarea {
+  background-color: rgb(24, 23, 23);
+  padding: 10px;
+  margin-bottom: 15px;
+  margin: 10px 0px;
+  border-width: 0px 0px 1px;
+  border-color: rgb(255, 255, 255);
+  display: block;
+  resize: none;
+  color: white;
+  width: 100%;
+}
+  div.flexcontainer2 {
+	margin: 0px 50px;
+  width: 1000px;
+	display: block;
+						}
+	.flexcontainer2 div {
+	width: 400px;
+  display: inline;
+  height: auto;
+  float: left;
+  margin: 50px;
+  text-align: center;
+						 }			
