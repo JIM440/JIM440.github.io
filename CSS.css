@@ -1,0 +1,242 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    }
+body{
+    color: white;
+    background-color: black;
+}
+.gap{
+  margin: 0px 40px;
+}
+header{
+  border-bottom: 1px solid rgb(248, 250, 248);
+}
+
+
+
+/*                     ABOUT ME                   */
+section{
+  border-bottom: 1px solid rgb(248, 250, 248); 
+  margin: 0px 40px;
+}
+span{
+  border-bottom: 1px solid rgb(6, 224, 6);
+}
+.about{
+  height: 80%;
+  width: 100%;
+  min-height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  grid-gap: 3rem;
+}
+.about-image{
+  max-width: 100%;
+  width: 320px;
+  max-height: 400px;
+  height: auto;
+  background-color: rgb(24, 23, 23);
+}
+.about-text{
+  text-align: center;
+}
+.about-text h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+span{
+  border-width: 0px 0px 1px 0px;
+  border-color:  rgb(12, 227, 12);
+}
+.about-text p{
+letter-spacing: 1px;
+line-height: 26px;
+font-size: 1.1rem;
+margin-bottom: 3.8rem;
+}
+
+@media (max-width: 1570px){
+.about{
+  padding: 80px 2%;
+}
+}
+@media (max-width: 700px){
+.about{
+  grid-template-columns: 1fr;
+}
+.about-text{
+  order: 2;
+}
+.about-image img{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+}
+/*                            menu             */
+#left{
+  display: inline;
+}
+.des{
+  color: white;
+  text-decoration-color: rgb(8, 217, 8);
+  float: right;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+.flex-container > div {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+div p.small {
+  font-size: 10px;
+  line-height: 10px;
+}
+/*                           IMAGE GALLERY               */
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+      width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*                           FOOTER                         */
+footer{
+    background-color: rgb(24, 23, 23);
+    display: block;
+}
+.grid{
+    padding: 40px 100px;
+    width: 100%; 
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 3rem;
+    border-bottom: 1px solid rgb(247, 243, 243);
+}
+input[type="text"] {
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(24, 23, 23);
+    margin: 10px 0;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    color: white;
+  }
+  input[type="email"] {
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(24, 23, 23);
+    margin: 10px 0;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    color: white;
+  }
+  input[type="submit"] {
+    border-width: 0px 0px 1px;
+    color: white;
+    border-color: rgb(18, 226, 18);
+    background-color: rgb(24, 23, 23);
+    text-align: right;
+    display: block;
+    margin-right: 0px;
+  }
+  textarea {
+    background-color: rgb(24, 23, 23);
+    padding: 10px;
+    margin-bottom: 15px;
+    margin: 10px 0px;
+    border-width: 0px 0px 1px;
+    border-color: rgb(255, 255, 255);
+    display: block;
+    resize: none;
+    color: white;
+    width: 100%;
+  } 
+  @media (max-width: 1570px){
+    footer{
+        padding: 80px 2%;
+        transition: .2s;
+    }
+    .contact-text h1{
+        font-size: 55px;
+    }
+    .contact-text p{
+        margin-bottom: 2rem;
+    }
+  }
+  @media (max-width: 700px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+  }
+  nav{
+    margin-bottom: 10px;
+  }
+  nav a:link, a:visited {
+    color: white;
+    text-decoration: underline rgb(34, 244, 34);
+    display: inline;
+    padding: 0px 10px;
+    }
+    
+   nav a:hover{
+    color: rgb(34, 244, 34);
+    }
+    nav div {
+        margin-top: 5px;
+        display: inline;
+        float: right;
+    }
+   nav a img:hover{
+        padding: 5px;
+        }
